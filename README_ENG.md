@@ -1,40 +1,41 @@
 # Thinkpad X250 Catalina Big sur Opencore
 ![Thismachine](./picture/Thismachine.png)
 
-## Информация
+## Information
 
-- Это полная рабочая конфигурация для ноутбука Thinkpad X250 со стоковой картой WiFi Intel 7265.
-- Layout-id = 32 для звуковой карты, для устранения шума в наушниках используйте скрипт ALCPlugFix.
-- Поддержка тачскрина с жестами.
-- Поддержка macOS Catalina.
-- Поддержка ThinkPad T450 ThinkPad T450s.
+- This is a full ThinkPad X250 macOS Big Sur + Intel Wireless 7265 configuration.
+- Sound card default Layout-id = 32, earphone noise please use the sound card repair script(ALCPlugFix).
+- Support touch screen (With multi-touch and touchscreen gestures).
+- support macOS Catalina.
+- support ThinkPad T450s ThinkPad T450.
 
-## Железо
+## Hardware information
 
 ```  
-- CPU：Intel Core i5-5200U
+- CPU：Intel Core i7-5200U
 
 - Intel HD 5500 Graphics 
 
 - ALC292
 
-- Intel Wireless 7265
+- Wireless network card：Intel Wireless 7265
 ```
 
 # ThinkPad Assistant 
-- Позволяет использовать функциональные клавиши T450s X250 T450.
-- Скопируйте ThinkpadAssistant в папку Программы.
-- Запустите ThinkpadAssistant и поставьте галочку "Start when logged in" на панели меню.
-- F4: Отключение микрофона (с LED индикацией).
-- F7: Конфигурация экрана(дублирование).
-- F8: Вкл/выкл WiFi.
-- Left Shift+F8: Вкл\Выкл Bluetooth.
-- F9: Открыть системные настройки.
-- F12: Открыть Launchpad.
-- FN+Space: Подсветка клавиатуры.
-- FN + 4: Сон.
-  (При подключении внешнего монитора при нажатии Сна отключается экран ноутбука выводя изображение только на внешние мониторы, для отмены нажмите Сон опять)
-- PrtSc замапен на F13: Может быть задан как кнопка для скриншота в системных настройках.
+- Allows you to use all function keys on Thinkpad T450s X250 T450 laptop.
+- Copy the ThinkpadAssistant into the Application folder.
+- Start ThinkpadAssistant and check "Start when logged in" in the menu bar.
+- F4: Mute / Unmute Microphone (with Status LED indication).
+- F7: Screen mirroring / Screen extending.
+- F8: Activate / Deactivate Wi-Fi.
+- Left Shift+F8: Activate / Deactivate Bluetooth.
+- F9: Open System Preferences.
+- F12: Open Launchpad.
+- FN+Space: Toggle Keyboard Backlight.
+- FN + 4: Sleep shortcut.
+  (press the sleep shortcut again during sleep to terminate sleep).
+  (When an external monitor is connected, after pressing the sleep button, the working screen changes to an external monitor (the internal screen is turned off); pressing the sleep button again, the internal and external monitors return to normal.)
+- PrtSc maps to F13: this can be set as screenshot in system preferences -> keyboard -> shortcut.
 -----------------------------------------------------------------------------------------------------------------
 ![demo](./picture/demo.gif)
 
@@ -49,20 +50,20 @@
 -  UEFI/Legacy Boot`: **UEFI Only**;
 -  CSM Support`: **Yes**.
 
-## Работает
+## Working
 - CPU
-- Сон
+- Sleep/Wake up
 - Wifi
 - Bluetooth
-- Встроенная сеть
-- Звук
+- Ethernet card
+- sound card
 - USB
-- Батареи
-- Тачскрин
-- Трекпад
-- Трекбол
+- The battery
+- touch screen
+- touch pad
+- little red dot
 - miniDP
-- Кардридер
+- SD card reader
 
-## Не работает
+## Not Working
 - VGA
