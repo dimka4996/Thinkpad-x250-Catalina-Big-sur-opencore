@@ -1,4 +1,6 @@
 # Thinkpad X250 Catalina Big sur Opencore
+# ENGLISH README https://github.com/dimka4996/Thinkpad-x250-Catalina-Big-sur-opencore/blob/main/README_ENG.md
+
 ![Thismachine](./picture/Thismachine.png)
 
 ## Информация
