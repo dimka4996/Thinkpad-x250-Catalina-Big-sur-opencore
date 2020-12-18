@@ -44,7 +44,7 @@
 -  Security -> Security Chip`: **Disabled**;
 -  Memory Protection -> Execution Prevention`: **Enabled**;
 -  Virtualization -> Intel Virtualization Technology`: **Enabled**;
--  Internal Device Access -> Bottom Cover Tamper Detection`: must be **Disabled**;
+-  Internal Device Access -> Bottom Cover Tamper Detection`: **Disabled**;
 -  Anti-Theft -> Current Setting`: **Disabled**;
 -  Anti-Theft -> Computrace -> Current Setting`: **Disabled**;
 -  Secure Boot -> Secure Boot`: **Disabled**;
